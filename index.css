@@ -1,0 +1,47 @@
+body {
+    font-family: Manrope;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 700;
+    background: #FFF;
+}
+
+button {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 500px;
+    height: 100px;
+    color: #FFF;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 500px;
+    padding-top: 125px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.counter {
+    text-align: center;
+}
+
+.counterUp {
+    background: #4191FF;
+}
+
+.reset {
+    background: #D45366;
+}
+
+.counterUp:hover,
+.reset:hover {
+    opacity: 0.7;
+    transition: all ease 0.3s;
+}
